@@ -2,30 +2,53 @@
 In the browser, simply click [Update State] button, and the elements that supposed to change are only the two elements within object whose id = 2. 
 ## Basically, you will see the initial content as:
 Object ID: 003
+
 Object Path: 001, 003
+
 Object ID: 002
+
 Object Path: 001, 003, 002
+
 Object ID: 004
+
 Object Path: 001, 004
+
 Object ID: 006
+
 Object Path: 001, 004, 005
+
 Object ID: 005
+
 Object Path: 001, 004, 005
+
 Object ID: 002
+
 Object Path: 001, 004, 005, 002
+
 
 ## Upon clicking the button, you can see the updateed state as:
 Object ID: 003
+
 Object Path: 001, 003
+
 Object ID: 002
+
 Object Path: 001, ***004***, 002
+
 Object ID: 004
+
 Object Path: 001, 004
+
 Object ID: 006
+
 Object Path: 001, 004, 005
+
 Object ID: 005
+
 Object Path: 001, 004, 005
+
 Object ID: 002
+
 Object Path: 001, 004, ***006***, 002
 
 
